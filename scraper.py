@@ -2,7 +2,6 @@ import requests
 import numpy as np
 import re
 from bs4 import BeautifulSoup as bs
-import math
 
 class Scraper:
 	

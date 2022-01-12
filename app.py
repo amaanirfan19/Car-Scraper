@@ -2,7 +2,6 @@ import streamlit as st
 import streamlit as st
 import pandas as pd
 import numpy as np
-import joblib
 from model import generate_model
 
 
@@ -20,7 +19,7 @@ st.set_page_config(page_title='Car Scraper made by web scraping cars.com', page_
 
 # # writing header
 # st.title('# Used Car Price Predition™  🚗')
-st.markdown("<h2 style='text-align: center;'>🚗  Used Car Price Prediction  🚗</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center;'>🚗  Car Price Predictor  🚗</h2>", unsafe_allow_html=True)
 
 
 col1, col2 = st.columns(2)
