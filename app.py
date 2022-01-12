@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from model import generate_model
-
+import sklearn
 
 # body dict
 body_dic = {'sedan': 0, 'suv': 1, 'coupe': 2, 'convertible': 3}
